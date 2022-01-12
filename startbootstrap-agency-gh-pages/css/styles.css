@@ -11794,6 +11794,27 @@ header.masthead .masthead-heading {
                     line-height: 4.5rem;
                     margin-bottom: 4rem;
                   }
+
+                  .portfolio-hover {
+                    border:2px solid #ddd;
+                    width: 400px;
+                    height: 226px;
+                    display:block;
+                    overflow: hidden;
+                  }
+                  
+                  .portfolio-hover img {
+                    width: 100%;
+                    transform: scale(1.1);
+                    cursor: pointer;
+                    filter: grayscale(100%);
+                    transition-duration: 0.5s;
+                  }
+                  
+                  .portfolio-hover img:hover {
+                    filter: grayscale(0);
+                    transition-duration: 0.5s;
+                  }
               
 
 
